@@ -1,0 +1,66 @@
+/* ========================== Font ========================== */
+@font-face {
+    font-family: 'Gilroy-bold';
+    src:  url('../font/Gilroy-SemiBold.ttf');
+    font-family: 'Gilroy-extrabold';
+    src: url('../font/Gilroy-SemiBold.ttf');
+  }
+
+
+/* ========================== Core ========================== */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+::root {
+    --background-accent1: #4FBFA5;
+    --background-accent2: #00868A;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-weight: 800;
+    font-family: 'Gilroy-extrabold', sans-serif;
+}
+
+body {
+    color: black;
+    background-color: #fff;
+}
+
+[class*="__container"] {
+    max-width: 1296px; 
+    margin: 0 auto;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+/* ========================== Header ========================== */
+
+header {
+    color: black;
+}
+
+.contact__header {
+    padding: 20px;
+}
+
+.line {
+    width: 90px;
+    opacity: 0.5;
+    border: 1px solid #C4C4C4;
+    
+}
+
+.logo {
+    width: 189px;
+}
