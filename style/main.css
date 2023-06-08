@@ -40,10 +40,14 @@ body {
     margin: 0 auto;
 }
 
-a {
-    color: #FFFFFF;
+ul li {
+    list-style-type: none;
+    text-decoration: none;
 }
 
+a {
+    color: #000000;
+}
 /* ========================== Header ========================== */
 
 header {
@@ -52,7 +56,26 @@ header {
 
 .contact__header {
     padding: 20px;
+    display: flex;
+    gap: 65px;
+    align-items: center;
+
 }
+
+.contact__list {
+    gap: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.glass {
+    gap: 8px;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    background: #00868A;
+}
+
 
 .line {
     width: 90px;
