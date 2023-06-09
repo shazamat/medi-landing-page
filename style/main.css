@@ -63,7 +63,7 @@ header {
 }
 
 .contact__header {
-    padding: 20px;
+    padding: 20px 0px;
     display: flex;
     gap: 65px;
     align-items: center;
@@ -85,10 +85,13 @@ header {
 }
 
 .social__navigation {
-    gap: 58px;
+    
     display: flex;
 }
 
+.social__item {
+    padding-left: 58px;
+}
 
 .line {
     width: 90px;
@@ -112,8 +115,7 @@ header {
 
 
 .home__header {
-    padding-top: 33px;
-    padding-left: 80px;
+   padding: 30px;
 }
 
 .home__list {
@@ -123,6 +125,8 @@ header {
 }
 
 .home__link {
+    font-weight: 500;
+    font-size: 18px;
     color: #fff;
 }
 
@@ -133,3 +137,76 @@ header {
     color: #000000;
     background: #fff;
 }
+
+
+/* ========================== Home Content Container ========================== */
+
+.home__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home__text h1 {
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.home__text p {
+    color: #fff;
+    font-weight: 700;
+    line-height: 150%;
+    padding-bottom: 40px;
+}
+
+.home__content button {
+    width: 163px;
+    height: 50px;
+    background: #00868A;
+}
+
+.home__content button a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Gilroy', sans-serif;
+}
+
+/* ========================== Home Table Container ========================== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    text-align: center;
+}
+
+th {
+    color: #fff;
+    padding: 20px 0;
+    font-size: 21px;
+    line-height: 150%;
+}
+
+tr th:nth-child(1), tr th:nth-child(3) {
+    background: #017d81;
+}
+
+tr th:nth-child(2) {
+    background: #05664f;
+}
+
+
+
+
+
+
+
+
+
+
+
