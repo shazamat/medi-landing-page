@@ -18,15 +18,10 @@
     transition: all 0.2s linear;
 }
 
-::root {
-    --background-accent1: #4FBFA5;
-    --background-accent2: #00868A;
-}
-
 html {
     overflow-x: hidden;
     scroll-behavior: smooth;
-    font-weight: 800;
+    font-weight: 700;
     font-family: 'Gilroy-extrabold', sans-serif;
 }
 
@@ -389,3 +384,65 @@ tr th:nth-child(2) {
     font-size: 14px !important;
     line-height: 150% !important;
  }
+
+ /* ========================== Special Offers Container ========================== */
+
+ .special__container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+ }
+
+.special__offers {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 100px;
+    background: #78dde4;
+}
+
+.special_title {
+    color: #00868A;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+
+.special__tariff {
+    width: 306px;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #00868A;
+}
+
+.special-img {
+    position: absolute;
+}
+
+.cosmetelog {
+    top: 30px;
+    left: 30px;
+    width: 148px;
+    height: 40px;
+    z-index: 5;
+    padding: 9px 15px;
+    position: relative;
+    background: #4FBFA5;
+}
+
+.cosmetolog_btn {
+    z-index: 3;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.cosmetolog_btn a {
+    color: #fff;
+    font-size: 21px;
+}
