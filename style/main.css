@@ -495,3 +495,13 @@ tr th:nth-child(2) {
     background: #05664f;
     text-transform: uppercase;
  }
+
+.footer__table, .footer__th {
+    background: #fff !important;
+}
+
+ .footer__th p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+ }
