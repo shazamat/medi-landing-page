@@ -476,13 +476,22 @@ tr th:nth-child(2) {
     flex-direction: column;
  }
 
- .telefon {
+ .telefon, .adress_text {
     color: #7f7f7f;
     text-transform: uppercase;
     font-size: 11px;
     line-height: 150%;
  }
 
- .tel {
-    
+ .tel, .adress {
+    color: #000000;
+    font-size: 21px;
+ }
+
+ .footer__btn {
+    width: 175px;
+    padding: 15px 25px;
+    color: #fff;
+    background: #05664f;
+    text-transform: uppercase;
  }
