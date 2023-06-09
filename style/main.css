@@ -396,7 +396,6 @@ tr th:nth-child(2) {
 .special__offers {
     width: 100%;
     height: 350px;
-    margin-bottom: 100px;
     background: #78dde4;
 }
 
@@ -446,3 +445,44 @@ tr th:nth-child(2) {
     color: #fff;
     font-size: 21px;
 }
+
+ /* ========================== Footer ========================== */
+
+ footer {
+    margin-top: 300px;
+ }
+
+ .footer__container {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .footer-container {
+    padding-top: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .footer-container h3 {
+   color: #000000;
+   font-size: 30px;
+ }
+
+ .footer__list {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .telefon {
+    color: #7f7f7f;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 150%;
+ }
+
+ .tel {
+    
+ }
