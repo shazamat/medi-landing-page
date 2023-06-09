@@ -228,7 +228,11 @@ tr th:nth-child(2) {
     margin-left: 40px;
 }
 
-.innovation_container h3, p, .innovation_btn {
+.innovation_container h3 p, .innovation_btn {
+    padding-left: 40px;
+}
+
+.text {
     padding-left: 40px;
 }
 
@@ -263,6 +267,8 @@ tr th:nth-child(2) {
 .innovation__images {
     padding-top: 53px;
 }
+
+/* ========================== Sertificate Container ========================== */
 
 .sertificate_container {
     display: flex;
@@ -322,3 +328,4 @@ tr th:nth-child(2) {
     color: #000000;
     font-size: 28px;
 }
+
