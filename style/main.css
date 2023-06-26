@@ -1,9 +1,9 @@
 /* ========================== Font ========================== */
 @font-face {
-    font-family: 'Gilroy-bold';
+    font-family: 'Gilroy';
     src:  url('../font/Gilroy-SemiBold.ttf');
     font-family: 'Gilroy-extrabold';
-    src: url('../font/Gilroy-SemiBold.ttf');
+    src: url('../font/Gilroy-ExtraBold.ttf');
   }
 
 
@@ -58,7 +58,7 @@ header {
 }
 
 .contact__header {
-    padding: 20px 0px;
+    padding: 20px 0;
     display: flex;
     gap: 65px;
     align-items: center;
@@ -262,7 +262,7 @@ tr th:nth-child(2) {
 
 .sertificate_container {
     display: flex;
-    display: inline-block;
+
     justify-content: space-between;
     padding-left: 135px;
 }
@@ -501,7 +501,13 @@ tr th:nth-child(2) {
 }
 
  .footer__th p {
+     color: black;
     font-weight: 400;
     font-size: 12px;
     line-height: 150%;
  }
+
+.footer__th:nth-child(2) {
+    display: flex;
+    
+}
