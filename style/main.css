@@ -1,11 +1,10 @@
 /* ========================== Font ========================== */
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy', sans-serif;
     src:  url('../font/Gilroy-SemiBold.ttf');
     font-family: 'Gilroy-extrabold';
     src: url('../font/Gilroy-ExtraBold.ttf');
   }
-
 
 /* ========================== Core ========================== */
 * {
@@ -476,14 +475,14 @@ tr th:nth-child(2) {
     flex-direction: column;
  }
 
- .telefon, .adress_text {
+.telefon, .adress_text {
     color: #7f7f7f;
     text-transform: uppercase;
     font-size: 11px;
     line-height: 150%;
  }
 
- .tel, .adress {
+.tel, .adress {
     color: #000000;
     font-size: 21px;
  }
