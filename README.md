@@ -1,3 +1,2 @@
-# Medi-landing-page
-# MEDI - Косметологические клиники
-https://dazzling-mousse-6053fc.netlify.app
+MEDI - Sayt kosmetologiya  
+ https://dazzling-mousse-6053fc.netlify.app
